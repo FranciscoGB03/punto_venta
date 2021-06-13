@@ -93,7 +93,7 @@ const staticPlain = (mensaje, titulo = i18next.t('general:error')) => {
         allowOutsideClick: false,
         allowEscapeKey: false,
         allowEnterKey: false,
-        onOpen: () => {
+        didOpen: () => {
             Swal.showLoading()
         },
     };
@@ -143,7 +143,7 @@ export const staticOcultablePlain = (mensaje, titulo = i18next.t('general:error'
         allowOutsideClick: false,
         allowEscapeKey: false,
         allowEnterKey: false,
-        onOpen: () => {
+        didOpen: () => {
             Swal.showLoading()
         },
     };
