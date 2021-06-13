@@ -1,0 +1,20 @@
+.text-titulos{
+    color: var(--text_titulos);
+}
+.navbar-background{
+    background: var(--bg-navbar);
+}
+.text-titulo-tabla{
+    color: var(--text_titulo_tabla);
+}
+.border-tabla{
+    border-color:var(--border_tabla);
+}
+.header-tabla{
+    background-color: var(--bg_header_tabla);
+    color: white;
+}
+.seleccionado{
+    background-color:var(--bg_seleccionado);
+    color: white;
+}

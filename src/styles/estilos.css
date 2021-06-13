@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.texto-vertical {
+    width:1em;
+    word-wrap: break-word;
+    text-align:center;
+    /*position: relative;*/
+}
+.informacion {
+    top:25%;
+    position:fixed;
+    /*text-transform: uppercase;*/
+    font-size:14px;
+    left:0;
+    color: white;
+    background-color: var(--bg_boton_modal);
+    z-index: 2;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    border-radius: 7px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.monitoreo {
+    top:15%;
+    position:fixed;
+    /*text-transform: uppercase;*/
+    font-size:14px;
+    right:0;
+    color: white;
+    background-color: var(--bg_boton_modal);
+    z-index: 2;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    border-radius: 7px;
+}
+.verificaciones {
+    top:60%;
+    position:fixed;
+    /*text-transform: uppercase;*/
+    font-size:14px;
+    right:0;
+    color: white;
+    background-color: var(--bg_boton_modal);
+    z-index: 2;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    border-radius: 7px;
+}
+.contenedor{
+    position: fixed;
+}

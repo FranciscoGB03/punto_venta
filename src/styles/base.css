@@ -1,0 +1,11 @@
+/*------Variables-----*/
+:root {
+    /* Colores */
+    --bg-navbar:#689f38;/*#33691e;*/
+    --bg_header_tabla:#0099CC;
+    --bg_boton_modal:rgba(23, 165, 137,0.9);
+    --bg_seleccionado:#007E33;
+    --text_titulos:#689f38;/*#ef6c00 ;/*#689f38; /*#ffb300; /*#17A589;*/
+    --text_titulo_tabla:#009688;
+    --border_tabla:#a5d6a7/**/
+}
