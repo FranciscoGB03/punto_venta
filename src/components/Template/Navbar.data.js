@@ -6,7 +6,7 @@ import {AiOutlineLineChart, AiOutlineFileSearch, AiOutlineSecurityScan} from 're
 import {GrConfigure} from 'react-icons/gr';
 import {VscGroupByRefType,VscGraph} from 'react-icons/vsc';
 import {BiDevices,BiColumns} from "react-icons/bi";
-import {FaReact, FaThermometerThreeQuarters, FaThermometer} from 'react-icons/fa';
+import {FaUsers} from 'react-icons/fa';
 import {MdDeviceHub,MdBubbleChart} from 'react-icons/md';
 import {IoStatsChart} from 'react-icons/io5';
 import {SiGooglesheets} from 'react-icons/si'
@@ -34,30 +34,6 @@ export const ITEMS_IZQUIERDA = {
             tipo: 'navlink',
             publico: false,
             nlOptions: {to: '/puntosMuestreo'}
-        },
-        {
-            keyLang: 'navbar:ca1',
-            icono: FaThermometerThreeQuarters,
-            permiso: 'navbar.ver_ca1',
-            tipo: 'navlink',
-            publico: false,
-            nlOptions: {to: '/hojaAnalisis/CA1'}
-        },
-        {
-            keyLang: 'navbar:ca2',
-            icono: FaThermometer,
-            permiso: 'navbar.ver_ca2',
-            tipo: 'navlink',
-            publico: false,
-            nlOptions: {to: '/hojaAnalisis/CA2'}
-        },
-        {
-            keyLang: 'navbar:solicitudes',
-            icono: SiGooglesheets,
-            permiso: 'navbar.ver_solicitudes',
-            tipo: 'navlink',
-            publico: false,
-            nlOptions: {to: '/solicitudes'}
         }
     ]
 };
@@ -134,79 +110,14 @@ export const ITEMS_DERECHA = {
             icono: BsBook,
             permiso: 'navbar.ver_catalogos',
             tipo: 'dropdown',
-            publico: false,
-            navlinks: [
+            publico: true,
+            navlinks: [                           
                 {
-                    keyLang: 'catalogos:tituloTipoParametro',
-                    to: "/catalogos/tipoParametro",
-                    icono: AiOutlineLineChart,
-                    permiso: 'navbar.ver_tipo_parametro',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:tituloParametro',
-                    to: "/catalogos/parametro",
-                    icono: IoStatsChart,
-                    permiso: 'navbar.ver_parametro',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:tipoPM',
-                    to: "/catalogos/tipoPM",
-                    icono: MdBubbleChart,
-                    permiso: 'navbar.ver_tipo_pm',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:tituloTipoMuestra',
-                    to: "/catalogos/tipoMuestra",
-                    icono: ImLab,
-                    permiso: 'navbar.ver_tipo_muestra',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:areaCA',
-                    to: "/catalogos/areaCA",
-                    icono: FaReact,
-                    permiso: 'navbar.ver_area_ca',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:tituloAnalisis',
-                    to: "/catalogos/analisis",
-                    icono: AiOutlineFileSearch,
-                    permiso: 'navbar.ver_analisis',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:tipoEquipo',
-                    to: "/catalogos/tipoEquipo",
-                    icono: VscGroupByRefType,
-                    permiso: 'navbar.ver_tipo_equipo',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:tituloEquipo',
-                    to: "/catalogos/equipo",
-                    icono: BiDevices,
-                    permiso: 'navbar.ver_equipo',
-                    publico: false,
-                    separador: true
-                },
-                {
-                    keyLang: 'catalogos:pregunta',
-                    to: "/catalogos/pregunta",
-                    icono: BsQuestionSquare,
-                    permiso: 'navbar.ver_pregunta',
-                    publico: false
-                },
-                {
-                    keyLang: 'catalogos:motivo',
-                    to: "/catalogos/motivo",
-                    icono: BsPencilSquare,
-                    permiso: 'navbar.ver_motivo',
-                    publico: false,
-                    separador: true
+                    keyLang: 'catalogos:proveedores',
+                    to: "/catalogos/proveedores",
+                    icono: FaUsers,
+                    permiso: '',
+                    publico: true
                 },
                 {
                     keyLang: 'catalogos:tituloTipoConfiguracion',

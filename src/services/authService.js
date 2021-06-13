@@ -94,7 +94,7 @@ const getClaims = () => {
 
 export const isLogged = () => {
     let token = getLS('token');
-    return typeof token !== 'undefined' && token !== null;
+    return true; //typeof token !== 'undefined' && token !== null;
 };
 
 export const getToken = () => {

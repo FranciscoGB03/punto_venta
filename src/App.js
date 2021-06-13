@@ -6,7 +6,7 @@ import {useStore} from './index';
 function App() {
    const {permisos,obtenerPermisos}=useStore();
     useEffect(()=>{
-        obtenerPermisos();
+        //obtenerPermisos();
     },[])
     return (
         <div className="App">
