@@ -120,6 +120,20 @@ export const ITEMS_DERECHA = {
                     publico: true
                 },
                 {
+                    keyLang: 'catalogos:departamentos',
+                    to: "/catalogos/departamentos",
+                    icono: FaUsers,
+                    permiso: '',
+                    publico: true
+                },
+                {
+                    keyLang: 'catalogos:subdepartamentos',
+                    to: "/catalogos/subdepartamentos",
+                    icono: FaUsers,
+                    permiso: '',
+                    publico: true
+                },
+                {
                     keyLang: 'catalogos:tituloTipoConfiguracion',
                     to: "/catalogos/tipoConfiguracion",
                     icono: BsGear,

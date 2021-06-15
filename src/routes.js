@@ -8,6 +8,8 @@ import Permiso from "./components/Catalogos/Permiso/Permiso";
 import Configuraciones from "./components/Catalogos/Configuraciones/Configuraciones";
 import TipoConfiguracion from "./components/Catalogos/TipoConfiguracion/TipoConfiguracion";
 import Proveedores from './components/Catalogos/Proveedores/Proveedores';
+import Departamentos from './components/Catalogos/Departamentos/Departamentos';
+import Subdepartamentos from './components/Catalogos/Subdepartamentos/Subdepartamentos';
 
 
 const ROUTES = [
@@ -15,6 +17,8 @@ const ROUTES = [
     {exact: true, path: '/admin/permisos', component: PermisosAdmin},
     {exact: true, path: '/admin/configuracion', component: Configuracion},    
     {exact: true, path: '/catalogos/proveedores', component: Proveedores},
+    {exact: true, path: '/catalogos/departamentos', component: Departamentos},
+    {exact: true, path: '/catalogos/subdepartamentos', component: Subdepartamentos},
     {exact: true, path: '/catalogos/rol', component: Rol},
     {exact: true, path: '/catalogos/seccionPermiso', component: SeccionPermiso},
     {exact: true, path: '/catalogos/permiso', component: Permiso},
