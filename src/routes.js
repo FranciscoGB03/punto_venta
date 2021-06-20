@@ -10,7 +10,9 @@ import TipoConfiguracion from "./components/Catalogos/TipoConfiguracion/TipoConf
 import Proveedores from './components/Catalogos/Proveedores/Proveedores';
 import Departamentos from './components/Catalogos/Departamentos/Departamentos';
 import Subdepartamentos from './components/Catalogos/Subdepartamentos/Subdepartamentos';
-
+import Presentacion from './components/Catalogos/Presentacion/Presentacion';
+import Impuestos from './components/Catalogos/Impuestos/Impuestos';
+import Productos from './components/Catalogos/Productos/Productos';
 
 const ROUTES = [
     {exact: true, path: '/', component: Homepage},
@@ -19,6 +21,9 @@ const ROUTES = [
     {exact: true, path: '/catalogos/proveedores', component: Proveedores},
     {exact: true, path: '/catalogos/departamentos', component: Departamentos},
     {exact: true, path: '/catalogos/subdepartamentos', component: Subdepartamentos},
+    {exact: true, path: '/catalogos/presentacion', component: Presentacion},
+    {exact: true, path: '/catalogos/impuestos', component: Impuestos},
+    {exact: true, path: '/catalogos/productos', component: Productos},
     {exact: true, path: '/catalogos/rol', component: Rol},
     {exact: true, path: '/catalogos/seccionPermiso', component: SeccionPermiso},
     {exact: true, path: '/catalogos/permiso', component: Permiso},

@@ -134,6 +134,27 @@ export const ITEMS_DERECHA = {
                     publico: true
                 },
                 {
+                    keyLang: 'catalogos:presentacion',
+                    to: "/catalogos/presentacion",
+                    icono: FaUsers,
+                    permiso: '',
+                    publico: true
+                },
+                {
+                    keyLang: 'catalogos:impuestos',
+                    to: "/catalogos/impuestos",
+                    icono: FaUsers,
+                    permiso: '',
+                    publico: true
+                },
+                {
+                    keyLang: 'catalogos:productos',
+                    to: "/catalogos/productos",
+                    icono: FaUsers,
+                    permiso: '',
+                    publico: true
+                },
+                {
                     keyLang: 'catalogos:tituloTipoConfiguracion',
                     to: "/catalogos/tipoConfiguracion",
                     icono: BsGear,
